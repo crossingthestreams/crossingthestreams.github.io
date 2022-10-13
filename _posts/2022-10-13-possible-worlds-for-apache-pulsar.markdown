@@ -31,7 +31,7 @@ interview in 2014](https://www.youtube.com/watch?v=aljvAuXqhds) when he was 99-y
 > If it's only about the past, it gets you nowhere, only back to the past.\
 > It is about back and forth between the possible and the actual and learning how to make that leap.
 >
-> Not only learning how, but learning what is necessary to do it. To use your bean. To its fullest extend.
+> Not only learning how, but learning what is necessary to do it. To use your bean. To its fullest extent.
 
 I hope that this blog will be teaching you and me to go beyond the information given.
 The articles shared in this blog will open up a wider range of possibility for Apache Pulsar. Me and other blog 
@@ -83,7 +83,7 @@ This is the most recent thread: [Planning for Apache Pulsar
 3.0](https://lists.apache.org/thread/1bofpck07fgnv118s2z9qtpz7tvd8fg9).
 
 
-> Use your bean, to its fullest extend.
+> Use your bean, to its fullest extent.
 > — <cite>Jerome Bruner</cite>
 
 
