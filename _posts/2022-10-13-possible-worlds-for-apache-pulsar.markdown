@@ -20,8 +20,8 @@ interview in 2014](https://www.youtube.com/watch?v=aljvAuXqhds) when he was 99-y
 
 > The main thing about teaching is that it opens up a wider range of possibility, what's possible.
 >
-> You teach him about something in the past or in the presence, but you hope that your teaching will have the good effect
-> of leading him into the world of possibility, that's where intelligence lies.
+> You teach them about something in the past or in the presence, but you hope that your teaching will have the good effect
+> of leading them into the world of possibility, that's where intelligence lies.
 >
 > Teaching is about speculating about possibility. Particularly, in the western world, we like people to 
 > stick to the factual. To what goes now. I'd say the main object of teaching and educating is get them to think and 
