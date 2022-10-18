@@ -5,8 +5,7 @@ date:   2022-10-18 15:57:14 +0300
 categories: pulsar
 ---
 
-This blog post is a continuation of the previous blog post ["Pulsar's high
-availability promise and its blind spot"]({% post_url
+This blog post is a continuation of the previous blog post ["Pulsar's namespace bundle centric architecture limits future options"]({% post_url
 2022-10-17-namespace-bundle-is-a-limiting-factor %}).
 
 ## Context
