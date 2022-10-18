@@ -98,14 +98,14 @@ the Pulsar distribution since Pulsar 2.10. I have seen several issues in test
 environments with Pulsar 2.10 where the BookKeeper's metadata state has become
 corrupted. After making changes in the configuration to by-pass Pulsar Metadata
 interface for Bookkeeper client and Bookkeeper server (possible with
-https://github.com/apache/pulsar/pull/17834), the problems went away. One of the
-severe issues was https://github.com/apache/pulsar/issues/17759 which is very
+[#17834](https://github.com/apache/pulsar/pull/17834)), the problems went away. One of the
+severe issues was [#17759](https://github.com/apache/pulsar/issues/17759) which is very
 recently fixed in master branch with
-https://github.com/apache/pulsar/pull/17922.
+[#17922](https://github.com/apache/pulsar/pull/17922).
 
 It is possible that the incidents were caused by issues with the PIP-45 Leader
 election abstraction. One of the fixes has been
-https://github.com/apache/pulsar/pull/17401 . This change hasn't yet been
+[#17401](https://github.com/apache/pulsar/pull/17401) . This change hasn't yet been
 cherry-picked to releases. 
 
 I recommend disabling Pulsar Metadata driver for Bookkeeper client (in broker)
@@ -160,4 +160,4 @@ so that the design could eliminate solutions where all changes are broadcasted e
   * Pulsar metadata solution has usability issues with it's eventual consistent change model which isn't properly described.
   * PIP-45 metadata change event broadcasting solution conflicts with scalable design.
 
-The challenges with Pulsar metadata are an additional motivation to revisit the Pulsar architecture besides addressing the availability issues in topic unloading. Addressing the Pulsar load balancing and metadata challenges are the problem space for the upcoming blog posts about the possible solutions to address this by changing Pulsar's architecture. Stay tuned!
+The challenges with Pulsar metadata are an additional motivation to revisit the Pulsar architecture, besides addressing the availability issues in topic unloading. Addressing the Pulsar load balancing and metadata challenges are the problem space for the upcoming blog posts about the possible solutions to address this by changing Pulsar's architecture. Stay tuned!
