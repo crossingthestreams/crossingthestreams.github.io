@@ -10,6 +10,12 @@ This blog post is a continuation of the previous blog post ["Pulsar's namespace 
 
 ## Context
 
+### Stating the problem before describing the solution
+
+Leslie Lamport wrote a short paper in 1978 ["State the Problem Before Describing the Solution"](https://www.microsoft.com/en-us/research/publication/state-problem-describing-solution/). I'm following this principle and continuing to state problems before describing the solution. The solution will be shared later in the blog post series.
+
+### Asumptions
+
 I'm making the assumption that replacing "namespace bundles" in the Pulsar load
 balancing design will be an essential design change to resolve availability
 problems related to broker shutdowns and broker load balancing. There is a need
@@ -23,7 +29,6 @@ The Pulsar metadata solution will be greatly impacted by the removal of
 
 Because of this dependency, I'm taking a deeper look at Pulsar's metadata store
 abstraction and what problems should be addressed when revisiting the design.
-
 
 ## What is the PIP-45 Metadata store abstraction / Pluggable metadata interface
 
