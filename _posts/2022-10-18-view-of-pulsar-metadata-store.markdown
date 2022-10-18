@@ -14,7 +14,7 @@ This blog post is a continuation of the previous blog post ["Pulsar's namespace 
 
 Leslie Lamport wrote a short paper in 1978 ["State the Problem Before Describing the Solution"](https://www.microsoft.com/en-us/research/publication/state-problem-describing-solution/). I'm following this principle and continuing to state problems before describing the solution. The solution will be shared later in the blog post series.
 
-### Asumptions
+### Assumptions
 
 I'm making the assumption that replacing "namespace bundles" in the Pulsar load
 balancing design will be an essential design change to resolve availability
